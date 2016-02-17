@@ -4,9 +4,13 @@ From a course about Big Data and data mining. Using Spark with Scala.
 Exercise 2: The Movie Lens dataset
 
 2.2: Prepare the dataset
+
 2.3: Compute how many movies employed adults have seen in total.
+
 2.4: Return 10 best rated movies from each age range.
+
 2.5: Function for Pearson Correlation.
+
 2.6: Test Pearson Correlation with different combinations of movies and groups. 
 
 I selected five different occupations and five different genres. The occupations are: artist, homemaker, K-12 student, programmer, scientists and the genres: children’s, documentary, film-noir, horror, sci-fi.
@@ -29,7 +33,9 @@ Exercise 3: Wikipedia
 This task was about parsing a Wikipedia page (I chose http://en.wikipedia.org/wiki/Solanaceae ). 
 
 3.2: Function that changes a letter of a word, practice broadcast.
+
 3.3: Divide the page into sections and compute a probability distribution for small words such as "and, an, the, a, ...". 
+
 3.4: Compute Hamming distance for words. For different lengths, compute distance with each substring and return average distance. Cluster all the words from the Wikipedia article with K-Means Clustering, test with different K.  
 
 The clusters, that my algorithm produces, focus on small words, because of the way we calculate Hamming distance for strings of different length. The algorithm favors short words: if we have strings ’an’ and ’banana’, the distances are calculated to pairs ”an - ba”, ”an - an”, ”an - na”, ”an - an”, ”an - na”, so the total distance is
